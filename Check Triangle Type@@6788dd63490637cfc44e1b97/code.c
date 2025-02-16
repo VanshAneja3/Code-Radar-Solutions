@@ -11,7 +11,7 @@ int main(){
     else if(a+b>c && a+c>b && c+b>a && a!=b && b!=c && c!=a){
         printf("Scalene");
     }
-    else if(a+b>c && a+c>b && c+b>a && a == b || b == c || a == c){
+    else if(a+b>c && a+c>b && c+b>a && (a == b || b == c || a == c)){
         printf("Isoceles");
     }
     return 0;
