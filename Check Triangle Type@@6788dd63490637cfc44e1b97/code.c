@@ -4,7 +4,7 @@ int main() {
     int a, b, c;
 
     // Taking input for three sides
-    printf("Enter three sides of a triangle: ");
+    
     scanf("%d %d %d", &a, &b, &c);
 
     // Check if it forms a valid triangle
