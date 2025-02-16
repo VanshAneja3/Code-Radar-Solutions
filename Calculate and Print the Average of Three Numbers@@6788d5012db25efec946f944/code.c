@@ -1,17 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    int n1 = 5;
-    
-
-    int n2 = 10;
-    
-
-    int n3 = 15;
-    
-
-    printf("Average: %d",(n1 + n2 + n3)/3);
-
+    int a,b,c,average;
+    scanf("%d%d%d",&a, &b, &c);
+    average = (a+b+c)/3;
+    printf("Average: %d\n",average);
     return 0;
     
 
