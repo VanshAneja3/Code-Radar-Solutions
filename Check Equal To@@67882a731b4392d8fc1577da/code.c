@@ -11,5 +11,5 @@ int main(){
     else{
         printf("False");
     }
-    retirn 0;
+    return 0;
 }
