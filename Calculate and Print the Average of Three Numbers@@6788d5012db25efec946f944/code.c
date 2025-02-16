@@ -1,19 +1,16 @@
 #include <stdio.h>
 
 int main(){
-    int n1;
-    printf("Enter number 1:");
-    scanf("%d",&n1);
+    int n1 = 5;
+    
 
-    int n2;
-    printf("Enter number 2:");
-    scanf("%d",&n2);
+    int n2 = 10;
+    
 
-    int n3;
-    printf("Enter number 3:");
-    scanf("%d",&n3);
+    int n3 = 15;
+    
 
-    printf("The average of the three integers is %d",(n1 + n2 + n3)/3);
+    printf("Average: %d",(n1 + n2 + n3)/3);
 
     return 0;
     
