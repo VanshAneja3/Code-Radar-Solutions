@@ -14,5 +14,8 @@ int main(){
     else if(a+b>c && a+c>b && c+b>a && (a == b || b == c || a == c)){
         printf("Isoceles");
     }
+    else{
+        printf("Invalid Triangle");
+    }
     return 0;
 }
